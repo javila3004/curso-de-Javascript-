@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+*{
+    margin: 0;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+    margin: 1rem 0;
+}
+header {
+    height: 15vh;
+    background-color: #292523;
+    color: #ebe6e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: -1rem;
+    z-index: 3; 
+}
+
+main {
+    min-height: 80vh;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+
+footer {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: #292523;
+    color: rgb(255, 255, 255);
+    padding-right: 2rem;
+}
+
+.card {
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.mt-1{
+    margin-top: 1rem;
+}
+
+.btn-delete {
+    color: rgb(209, 7, 7);
+    cursor: pointer;
+}
+
+.btn-detalle{
+    color: #491b04f8;
+    cursor: pointer;
+}
+
+.btn-update {
+    color: rgb(0, 190, 95);
+    cursor: pointer;
+}
